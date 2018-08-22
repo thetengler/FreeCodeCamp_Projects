@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="surveyForm.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Have you ever been abducted by aliens?</p>
+
+  <form action="" id="survey=form">
+    <label for="name" id="name-label">* Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <label for="email" id="email-label">* Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <label for="number" id="number-label">* Number</label>
+    <input type="number" id="number" name="number" min="0" max="100" placeholder="Number" required>
+    <label for="dropdown">* Something goes here.</label>
+    <select name="dropdown" id="dropdown">
+      <option value="">Select an option</option>
+    </select>
+    <fieldset>
+      <legend>Something will also go here.</legend>
+      <input type="radio">
+    </fieldset>
+    <label for=""></label>
+    <input type="checkbox">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button id="submit">Submit</button>
+  </form>
+</body>
+</html>
